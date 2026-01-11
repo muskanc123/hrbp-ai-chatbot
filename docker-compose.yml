@@ -25,7 +25,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: chatbot-backend
-    env_file: .env
+    env_file: ./backend/.env
     environment:
       MONGODB_URL: mongodb://mongodb:27017
       MONGODB_DB_NAME: chatbot_db
