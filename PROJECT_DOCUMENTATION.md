@@ -4,10 +4,6 @@
 
 An intelligent HR Business Partner (HRBP) chatbot that provides instant access to employee data through natural language conversations. The system uses Google's Gemini AI to answer HR-related queries about employees, their leaves, loans, performance ratings, and medical reimbursements.
 
-**Live Demo:** [Include your deployment URL or screenshots]
-
----
-
 ## 🎯 Approach & Architecture
 
 ### Technical Stack
@@ -111,7 +107,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/muskanc123/hrbp-ai-chatbot
    cd hrbp-ai-chatbot
    ```
 
@@ -211,15 +207,6 @@ mongod --dbpath /path/to/data
    - "Who has the highest medical reimbursement?"
    - "Show employees with loan amounts over $100,000"
 
-### Screenshots
-
-[Include screenshots of:]
-- Main chat interface
-- Table formatting example
-- Conversation management
-- Mobile responsive view
-
----
 
 ## 🏗️ Project Structure
 
@@ -389,12 +376,6 @@ During development, the codebase underwent significant architectural refactoring
 **Developer:** Muskan Chawla  
 **Project Type:** HRBP AI Assistant Prototype  
 **Last Updated:** January 2026
-
----
-
-## 📄 License
-
-[Specify your license here]
 
 ---
 
