@@ -22,21 +22,21 @@ fi
 echo "✅ Docker and Docker Compose are installed"
 echo ""
 
-# Check if .env file exists
-if [ ! -f ".env" ]; then
-    echo "📝 Creating .env file from template..."
-    cp .env.example .env
+# Check if .env file exists in backend directory
+if [ ! -f "backend/.env" ]; then
+    echo "📝 Creating backend/.env file from template..."
+    cp backend/.env.example backend/.env
     echo ""
-    echo "⚠️  IMPORTANT: Please edit .env and add your GEMINI_API_KEY"
+    echo "⚠️  IMPORTANT: Please edit backend/.env and add your GEMINI_API_KEY"
     echo "   Get your free key from: https://makersuite.google.com/app/apikey"
     echo ""
-    read -p "Press Enter after you've added your API key to .env..."
+    read -p "Press Enter after you've added your API key to backend/.env..."
 fi
 
 # Check if GEMINI_API_KEY is set
-source .env
+source backend/.env
 if [ -z "$GEMINI_API_KEY" ]; then
-    echo "⚠️  WARNING: GEMINI_API_KEY is not set in .env file"
+    echo "⚠️  WARNING: GEMINI_API_KEY is not set in backend/.env file"
     echo "   The chatbot will not work without an API key."
     echo ""
     read -p "Continue anyway? (y/n) " -n 1 -r
