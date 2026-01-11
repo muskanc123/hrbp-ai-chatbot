@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-exo bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2.5;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded-full;
+    margin: 8px 0;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-full;
+    background: linear-gradient(180deg, #8b5cf6 0%, #ec4899 100%);
+    transition: background 0.2s ease;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #7c3aed 0%, #db2777 100%);
+  }
+
+  /* Firefox scrollbar */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #8b5cf6 #f3f4f6;
+  }
+
+  /* HTML content styling for AI messages */
+  .prose {
+    @apply text-gray-900;
+  }
+
+  .prose p {
+    @apply mb-3 last:mb-0;
+  }
+
+  .prose strong,
+  .prose b {
+    @apply font-semibold text-gray-900;
+  }
+
+  .prose ul {
+    @apply list-disc list-inside mb-3 space-y-1;
+  }
+
+  .prose ol {
+    @apply list-decimal list-inside mb-3 space-y-1;
+  }
+
+  .prose li {
+    @apply text-gray-800;
+  }
+
+  .prose br {
+    @apply block mb-2;
+  }
+}

@@ -1,0 +1,82 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+*.log
+
+# MongoDB data
+data/
+mongodb_data/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Media files (screenshots, videos, images)
+*.mp4
+*.mov
+*.avi
+*.jpeg
+*.jpg
+*.png
+*.gif
+!frontend/public/*.png
+!frontend/public/*.jpg
+!frontend/public/*.jpeg
+
+# Documentation artifacts (optional - keep if you want)
+# UI_REDESIGN.md
+# QUICKSTART.md
+
+# Excel data files (keep .xlsx in repo for demo purposes)
+# Banking Demo File.xlsx
