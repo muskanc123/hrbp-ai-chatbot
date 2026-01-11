@@ -39,7 +39,7 @@ Before running this project, ensure you have the following installed:
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/muskanc123/hrbp-ai-chatbot
 cd hrbp-ai-chatbot
 
 # 2. Set up environment variables
@@ -88,11 +88,13 @@ Built with Clean Architecture and Domain-Driven Design principles.
 
 ## 📸 Screenshots
 
-[Add your screenshots here]
+<img width="2878" height="1682" alt="image" src="https://github.com/user-attachments/assets/28068d0f-5446-49e5-abaa-7cc46798e045" />
+<img width="1422" height="802" alt="image" src="https://github.com/user-attachments/assets/2a12f68f-5314-4486-b812-4f31effadc7e" />
 
-## 📝 License
 
-[Your License]
+
+
+
 
 ## 👤 Author
 
